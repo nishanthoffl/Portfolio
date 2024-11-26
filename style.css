@@ -1,0 +1,56 @@
+/* General Styles */
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  a, h2, h4 {
+    color: #ffc107;
+  }
+  
+  a:hover, .btn-outline-warning:hover {
+    color: #fff;
+    background-color: #ffc107;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #232800, #928b00);
+  }
+  
+  /* Section Spacing */
+  section {
+    padding: 50px 0;
+  }
+  
+  /* Animation */
+  .animate-fade-in {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Projects & Certifications */
+  .cert-item, .project-item {
+    background: #1e1e1e;
+    border: 1px solid #ffc107;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cert-item:hover, .project-item:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+  
